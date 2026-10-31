@@ -1,8 +1,7 @@
 name: Do release PR or GitHub release
 on:
-  push:
-    branches:
-    - main
+  # automatic triggers removed 2026-10-30 to stop burning hosted-runner minutes; run manually
+  workflow_dispatch:
 
 jobs:
   release-please:
